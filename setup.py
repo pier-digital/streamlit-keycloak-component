@@ -2,14 +2,14 @@ from pathlib import Path
 import setuptools
 
 setuptools.setup(
-    name="streamlit-keycloak",
-    version="1.1.1",
+    name="streamlit-keycloak-component",
+    version="0.0.1",
     author="Gideon Bleumink",
     author_email="",
     description="Keycloak authentication for Streamlit",
     long_description=(Path(__file__).parent / "README.md").read_text(),
     long_description_content_type="text/markdown",
-    url="https://github.com/bleumink/streamlit-keycloak",
+    url="https://github.com/pier-digital/streamlit-keycloak-component",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
